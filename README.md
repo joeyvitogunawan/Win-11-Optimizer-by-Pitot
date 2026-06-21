@@ -5,7 +5,7 @@
 🚀 Quick Launch
 Open PowerShell as Administrator and run:
 ```powershell
-irm https://gist.githubusercontent.com/YOURNAME/YOURGISTID/raw/W11_DeepTweaker.ps1 | iex
+irm https://raw.githubusercontent.com/joeyvitogunawan/Win-11-Optimizer-by-Pitot/refs/heads/main/W11_DeepTweaker.ps1 | iex
 ```
 ---
 📋 What It Does
