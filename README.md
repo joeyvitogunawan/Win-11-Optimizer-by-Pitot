@@ -2,13 +2,11 @@
 > A one-click Windows 11 performance optimization tool built for gaming.
 > Targets the **i5-13400F + RTX 3060 Ti** but works on any Windows 11 23H2 system.
 ---
-🚀 Quick Launch (like Chris Titus WinUtil)
+🚀 Quick Launch
 Open PowerShell as Administrator and run:
 ```powershell
 irm https://gist.githubusercontent.com/YOURNAME/YOURGISTID/raw/W11_DeepTweaker.ps1 | iex
 ```
-> Replace the URL with your own GitHub Gist raw link after uploading the script.
-Or just right-click `W11_DeepTweaker.ps1` → Run with PowerShell.
 ---
 📋 What It Does
 W11 Deep Tweaker is a native PowerShell GUI app — no installs, no dependencies, no bloat. It applies deep Windows 11 optimizations with a single click per tweak, with a full undo system for every change.
@@ -162,7 +160,7 @@ Q: Can I undo everything?
 A: Yes — every tweak has an individual Undo button, and the ↩ Undo All Done button reverses all applied tweaks at once. For anything critical, the restore point covers everything.
 Q: Will this work on Windows 11 24H2?
 A: Most tweaks are compatible. MMCSS paths and some registry keys may differ slightly on newer builds.
-Q: What's the difference between this and OO ShutUp / Chris Titus WinUtil?
+Q: What's the difference between this and other windows debloater or tweaker?
 A: This goes deeper — registry-level IRQ tuning, MMCSS scheduler tweaks, GPU interrupt affinity pinning, and Spectre mitigation control are not covered by those tools. Think of this as the layer you apply after running those.
 Q: Is it safe to apply all tweaks at once?
 A: Safe tweaks yes — use ⚡ Apply HIGH Impact for the fastest gains. Advanced tweaks (red badges) should be applied individually after reading the description.
